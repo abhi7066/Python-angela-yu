@@ -1,1 +1,0 @@
-print("Hello " + input("May i know your name ? "))
