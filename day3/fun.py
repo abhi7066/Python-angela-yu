@@ -1,10 +1,8 @@
-def printme( str ):
-   "This prints a passed string into this function"
-   print (str)
-   return str+" Dethe"
+def changeme( mylist ):
+   mylist = mylist+6;
+   print ("Values inside the function: ", mylist)
+   
 
-print(printme("Abhishek"))
-
-
-
-#This is printing string and returning a value string
+mylist = 76;
+changeme( mylist );
+print ("Values outside the function: ", mylist)
